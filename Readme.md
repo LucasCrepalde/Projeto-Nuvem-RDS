@@ -1,7 +1,9 @@
 Projeto 2 — Serviços em Nuvem
 
 Lorenzo Tadeu - 10420067
+
 Lucas Crepalde - 10425647
+
 Pedro Carvalho - 10388298
 
 O projeto se baseia em um CRUD de livros exposto por uma API REST em Node.js/Express 
@@ -15,10 +17,13 @@ o API Gateway foi integrado em HTTP apontando para IP-PUBLICO-EC2:3000/livros,
 
 -Atividades de cada um -
 Lorenzo: 
+
 criação da VPC, subnets e SGs, provisionou o RDS e testou a conectividade na porta 3306
 
 Lucas:
+
 implementou a API Node, escreveu o Dockerfile e fez o deploy na EC2, além de configurar o API Gateway (rotas `/livros` e integração HTTP) 
 
 Pedro:
+
 crição da Lambda `report-livros`, integrou a rota `/report` e executou testes fim a fim, validando as chamadas via Gateway .
