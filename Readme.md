@@ -1,5 +1,9 @@
 Projeto 2 — Serviços em Nuvem
 
+Lorenzo Tadeu - 10420067
+Lucas Crepalde - 10425647
+Pedro Carvalho - 10388298
+
 O projeto se baseia em um CRUD de livros exposto por uma API REST em Node.js/Express 
 rodando em uma imagem Docker numa EC2, com dados em um banco de dados MySQL armazenados 
 em um RDS (em sub-redes privadas sem acesso a internet), publicado externamente via API Gateway.
